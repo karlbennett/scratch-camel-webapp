@@ -7,11 +7,6 @@ import javax.servlet.annotation.WebServlet;
 /**
  * @author Karl Bennett
  */
-@WebServlet("/scratch/*")
+@WebServlet("/scratch/*") // Register the Camel servlet.
 public class ScratchCamelServlet extends CamelHttpTransportServlet {
-
-    public ScratchCamelServlet() {
-
-        System.out.println("SERVLET STARTORED!");
-    }
 }
