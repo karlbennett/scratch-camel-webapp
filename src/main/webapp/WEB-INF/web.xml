@@ -4,5 +4,6 @@
          id="scratch-camle-webapp" version="3.0">
     <display-name>Scratch Camel Webapp</display-name>
     <!-- This web.xml isn't actually required, but unfortunately the src/main/webapp directory it resides in is. -->
-    <!-- The Maven Tomcat plugin will not run without that directory. -->
+    <!-- The Maven Tomcat plugin will not run without that directory. So this file has been placed here so the -->
+    <!-- directory is picked up by Git. -->
 </web-app>
